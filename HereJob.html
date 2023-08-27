@@ -4,9 +4,44 @@
         <meta charset="utf-8">
         <title>JobHere</title>
         <link rel="stylesheet" href="style.css">
+        <style>
+            a{
+                text-decoration: none;
+            }
+            a:visited{
+                color: gray;
+                text-decoration: none;
+            }
+            a:hover{
+                color: red;
+                text-decoration: underline;
+            }
+            #ok:hover{
+                color:aqua;
+                text-decoration: underline;
+            }
+            #ok{
+                border: 2px solid black;
+                margin: 0px 550px;
+            }
+            #qqq{
+                display: block;
+                text-align: center;
+            }
+
+        </style>
     </head>
     <body>    
-        <div>Здесь <span style="color:blue"><i>СИНИЙ </i></span>цвет!</div>
-        <a href="Lesson1HTML.html">Ссылка на главную страницу</a>
+        <h1 id="ok">Сайт о Программировании</h1>
+        <hr>
+        <h2 style="text-align: center;">Фрейм <q>всё о КХЛ</q></h2>
+        <iframe src="https://www.khl.ru/" width="1500" height="500"></iframe>
+        <hr>
+        <h2 style="text-align: center;">Фрейм <q>всё о ВГТУ</q></h2>
+        <iframe src="https://vstu.by/studentam-ru/raspisanie" width="1500" height="500"></iframe>
+        <a id="qqq" href="Lesson1HTML.html">Ссылка на главную страницу</a>
+        <details>
+            
+        </details>
     </body>
 </html>

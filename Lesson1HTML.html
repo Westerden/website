@@ -4,14 +4,36 @@
         <meta charset = "utf-8">
         <title>Lesson 1</title>
         <link rel="stylesheet" href="style.css">
+        <style>
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: orange;
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
     </head>
 
     <body>
-        <form method="post" action="HereJob.html">
-            <input type="login" name="login">
-            <input type="password" name="password">
-            <input type="submit" value="Entrance">
+        <form>
+            <input list="dataLIST" type="text" placeholder="Введите Ваш Логин" name="login">
+            <p><input type="password" placeholder="Введите Ваш Пароль"></p>
+            <p>
+            <button type="submit" formmethod="post" formaction="HereJob.html">Отправить</button>
+            <button type="reset">Отменить</button> 
+            </p>
         </form>
+
+        <datalist id="dataLIST">
+            <option value="iPhone">2.000$</option>
+            <option value="Android">50$</option>
+        </datalist>
+
+        
 
         <h1 title="privet :D">ПРИВЕТСВУЕМ!</h1>
 
@@ -59,10 +81,6 @@
         <a href="#repos">Переходит на репозиторий</a>
         <a href="#catJon"><br>Переходит на кота Джона</a>
         <hr>
-    
-        <h1 style="text-align: center;">ФРЕЙМ</h1>
-        <iframe src="https://www.khl.ru/" width="1500" height="400"></iframe>
-        <hr>
-        
+         
     </body>
 </html>
